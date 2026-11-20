@@ -1,9 +1,25 @@
-# DEIXEN — Fable Handoff v1.1 (Fable-only package)
+# DEIXEN — Gemini Independent Audit Source Repository
 
-Read `00_START_HERE/START_HERE_FABLE_HANDOFF_v1.1.md` first. This package is curated exclusively for Fable 5.2 as the sole DEIXEN project lead. It contains the current governing founder directions, product baseline, approved Workstream C reconciliation, selected original review evidence, targeted references, and Amadeus curriculum material.
+This repository contains the curated documentary source package for Gemini's independent DEIXEN product-system, end-to-end UX, and software blind-spot review.
 
-The first Fable assignment is read-only. This package is not a frozen specification and does not authorize implementation. Fable must critically assess the actual project, retain what is strong, improve or replace what is weak, remove elements that do not earn their place, and bring material product-level changes to the founder for approval.
+## Start here
 
-The independent Gemini Product Completeness & UX review assignment is distributed as a separate Markdown file and is **not included in this Fable-only package**. Any resulting Gemini report is advisory input; it does not create parallel project leadership.
+1. Read GEMINI_DEIXEN_INDEPENDENT_PRODUCT_SYSTEM_AUDIT_ASSIGNMENT_v1.0.md first.
+2. Read the source documents directly from this repository's main branch. The founder will not upload them into the Gemini conversation.
+3. Treat this repository as read-only. Do not commit reports or modify source documents.
 
-Package contents and curation decisions: `00_START_HERE/PACKAGE_MANIFEST_AND_CURATION_RECORD_v1.1.md`. SHA-256 values: `SHA256SUMS.txt`.
+## Scope and authority
+
+This is a documentation/review repository, not the DEIXEN application's source-code repository. It does not authorize a code change or prove that a documented capability exists in the live application.
+
+Fable 5.2 remains DEIXEN's sole project lead. Gemini's role is independent review and recommendation only. Product-level decisions remain with the founder; technical decisions are delegated to Fable.
+
+The Fable handoff documents in this repository are supplied as context and evidence. The Fable-specific assignment is not an instruction to Gemini. The separate Gemini assignment above governs the review task.
+
+## Repository layout and checksum notes
+
+The files are presented at the repository root. Some paths in the original Fable handoff README, manifest, and START HERE guide retain their original ZIP folder structure; use the exact filenames in this repository rather than assuming those folders exist here.
+
+SHA256SUMS.txt is the historical checksum manifest for the original Fable Handoff v1.1 package. It retains the original archive paths and records, so it is not a checksum inventory of this flattened Gemini repository. The Amadeus book PDF mentioned in that historical package manifest is intentionally not uploaded to this repository; its absence is not a review gap. The Gemini assignment is separate from the original Fable ZIP.
+
+REPOSITORY_SHA256SUMS.txt contains checksums for the repository-specific README and Gemini assignment files.
